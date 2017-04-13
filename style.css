@@ -3,3 +3,63 @@ body {
   background-color: #aaa;
   color: #fff;
 }
+
+.btn {
+  background-color: blue;
+  height: 40px;
+  border: none;
+  color: white;
+}
+.wrapper {
+  width: 396px;
+  height: 396px;
+  display: block;
+  float: left;
+  background-color: brown;
+}
+.image {
+  width: 100px;
+  height: 100px;
+  margin: 16px;
+  display: inline-block;
+  float: left;
+  background-color: white;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+.box-poruka {
+  display: block;
+  float: left;
+  width: auto;
+  height: auto;
+  padding: 16px;
+  margin: 24px;
+  background-color: #f5f5f5;
+  color: #404040;
+  border-radius: 4px;
+}
+/*.image[alt="1"] {
+  background-color: yellow;
+}
+.image[alt="2"] {
+  background-color: lightyellow;
+}
+.image[alt="3"] {
+  background-color: greenyellow;
+}
+.image[alt="4"] {
+  background-color: magenta;
+}
+.image[alt="5"] {
+  background-color: darkblue;
+}
+.image[alt="6"] {
+  background-color: lightblue;
+}
+.image[alt="7"] {
+  background-color: blue;
+}
+.image[alt="8"] {
+  background-color: green;
+}
+*/
