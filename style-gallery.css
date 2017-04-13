@@ -1,0 +1,33 @@
+.wrapper-gallery {
+  display: block;
+  width: 420px;
+  height: 315px;
+  margin: 0;
+  padding: 4px;
+  background-color: grey;
+}
+.wrapper-gallery ul,
+.wrapper-gallery ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+img {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+.preview {
+  width: 800px;
+  height: 600px;
+  display: block;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  z-index: 10;
+  top: 8px;
+  left: 440px;
+}

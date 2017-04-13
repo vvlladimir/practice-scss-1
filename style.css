@@ -27,7 +27,8 @@ body {
   border: 1px solid black;
   box-sizing: border-box;
 }
-.box-poruka {
+.box-poruka,
+.box-poruka-nista {
   display: block;
   float: left;
   width: auto;
@@ -37,6 +38,9 @@ body {
   background-color: #f5f5f5;
   color: #404040;
   border-radius: 4px;
+}
+.box-poruka-nista {
+  background-color: yellow;
 }
 /*.image[alt="1"] {
   background-color: yellow;

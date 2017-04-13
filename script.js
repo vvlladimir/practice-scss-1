@@ -25,15 +25,26 @@ var bgColor = a.toElement.style.backgroundColor;
 //console.log(a.toElement.style.backgroundColor);
 
   var removeTarget = a.target;
+  //console.dir(a.target);
 //console.dir(removeTarget);
+if(removeTarget.tagName === 'IMG'){
+
   removeTarget.parentNode.removeChild(removeTarget);
 
-var boxPoruka = document.createElement('div');
-boxPoruka.className += 'box-poruka';
+  var boxPoruka = document.createElement('div');
+  boxPoruka.className += 'box-poruka';
 
-var textPoruka = document.createTextNode('Hvala vam sto ste obrisali '+ bgColor +' kockicu!');
+  var textPoruka = document.createTextNode('Hvala vam sto ste obrisali '+ bgColor +' kockicu!');
+  boxPoruka.appendChild(textPoruka);
+}else {
+  console.log(a.target);
+  var boxPoruka = document.createElement('div');
+  boxPoruka.className += 'box-poruka-nista';
 
-boxPoruka.appendChild(textPoruka);
+  var textPoruka = document.createTextNode('Niste obrisali kockicu!');
+  boxPoruka.appendChild(textPoruka);
+}
+
 document.getElementById('body').appendChild(boxPoruka);
 
 }, false);
